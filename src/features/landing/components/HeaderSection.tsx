@@ -13,7 +13,7 @@ export const HeaderSection = () => {
         mb={{ base: '4', md: '6' }}
         textAlign="center"
       >
-        <GradientSpan>Instant</GradientSpan> crypto experiences
+        <GradientSpan>Onboarding</GradientSpan> made easy
       </Heading>
       <Text
         fontSize={{ base: 'lg', md: 'xl' }}
@@ -21,7 +21,7 @@ export const HeaderSection = () => {
         mb={{ base: '6', md: '8' }}
         textAlign="center"
       >
-        {`Drop tokens, experiences, and more. Let's onboard the masses with the click of a link.`}
+        {`Give a person a wallet and whatever else you want`}
       </Text>
       {/* Powered by NEAR */}
       <HStack>

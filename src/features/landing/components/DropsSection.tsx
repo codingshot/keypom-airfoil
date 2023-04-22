@@ -51,10 +51,10 @@ export const DropsSection = () => {
             // dropCta('ticket');
           }}
           ctaText="Coming soon"
-          description="Generate QRs for each guest, set them up with a wallet and optionally drop attendance proof NFTs."
-          headingText="Ticket your next event."
+          description="Join OnboardDAO eeven if you dont have a wallet."
+          headingText="Join Onboard DAO."
           imageNumber={1}
-          subHeadingText="Ticket Drops"
+          subHeadingText="DAO-nboarding"
         />
       ),
     },

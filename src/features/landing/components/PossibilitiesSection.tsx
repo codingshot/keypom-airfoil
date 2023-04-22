@@ -36,7 +36,7 @@ export const PossibilitiesSection = () => {
           description="Dont see the drop you need? Talk to us about custom built drops."
           header="Custom drops"
           onClick={() => {
-            window.location.href = 'https://twitter.com/keypomxyz';
+            window.location.href = 'https://twitter.com/onboard_dao';
           }}
         />
       </SimpleGrid>

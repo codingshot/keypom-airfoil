@@ -49,7 +49,7 @@ const LandingPage = () => {
 
             <Text color="blue" fontWeight="500" mb="4" size={{ base: 'xl', md: '3xl' }}>
               <a
-                href="https://twitter.com/keypomxyz/status/1632452700230279168?s=20"
+                href="https://twitter.com/onboard_dao/status/1632452700230279168?s=20"
                 rel="noreferrer"
                 target="_blank"
               >

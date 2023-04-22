@@ -27,14 +27,24 @@ export const Navbar = (props: NavbarProps) => {
   const { isLoggedIn } = useAuthWalletContext();
 
   const MENU_ITEMS = [
+    // {
+    //   name: 'Docs',
+    //   href: 'https://docs.onboarddao.org',
+    //   isExternal: true,
+    // },
     {
-      name: 'Docs',
-      href: 'https://docs.keypom.xyz',
+      name: 'Get in touch',
+      href: 'https://twitter.com/onboard_dao',
       isExternal: true,
     },
     {
-      name: 'Get in touch',
-      href: 'https://twitter.com/keypomxyz',
+      name: 'The DAO',
+      href: 'https://app.astrodao.com/dao/onboarddao.sputnik-dao.near',
+      isExternal: true,
+    },
+    {
+      name: 'Partner w Us',
+      href: 'https://www.onboarddao.org/partner',
       isExternal: true,
     },
     {

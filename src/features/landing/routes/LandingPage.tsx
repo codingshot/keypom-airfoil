@@ -7,7 +7,7 @@ const LandingPage = () => {
     <>
       <HeaderSection />
       <DropsSection />
-      <PossibilitiesSection />
+      {/* <PossibilitiesSection /> */}
     </>
   );
 };
