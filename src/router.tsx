@@ -51,6 +51,7 @@ const TicketDropManagerPage = React.lazy(
   async () => await import('@/features/drop-manager/routes/ticket/TicketDropManagerPage'),
 );
 const EthDenverLandingPage = React.lazy(async () => await import('@/pages/EthDenver'));
+const PartnerPage = React.lazy(async () => await import('@/pages/Partner'));
 
 const ScannerPage = React.lazy(async () => await import('@/features/scanner/routes/ScannerPage'));
 
@@ -65,6 +66,10 @@ export const router = createBrowserRouter([
       {
         path: 'ethdenver',
         element: <EthDenverLandingPage />,
+      },
+      {
+        path: 'partner',
+        element: <PartnerPage />,
       },
       {
         loader: () => {
