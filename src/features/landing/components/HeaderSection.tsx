@@ -13,7 +13,7 @@ export const HeaderSection = () => {
         mb={{ base: '4', md: '6' }}
         textAlign="center"
       >
-        <GradientSpan>Onboarding</GradientSpan> made easy
+        <GradientSpan>Web3</GradientSpan> made easy by <GradientSpan>OnboardDAO</GradientSpan>
       </Heading>
       <Text
         fontSize={{ base: 'lg', md: 'xl' }}
@@ -21,7 +21,7 @@ export const HeaderSection = () => {
         mb={{ base: '6', md: '8' }}
         textAlign="center"
       >
-        {`Give a person a wallet and whatever else you want`}
+        {`Onboarding the next Billion HUMANS to Web3`}
       </Text>
       {/* Powered by NEAR */}
       <HStack>
