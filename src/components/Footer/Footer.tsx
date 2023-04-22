@@ -1,11 +1,13 @@
 import { Box, type ChakraProps, HStack, Text, Link, Flex } from '@chakra-ui/react';
 
-import { TwitterLogoIcon, LogoNear } from '@/components/Icons';
+import { TwitterLogoIcon , LogoNear } from '@/components/Icons';
 
 type FooterProps = ChakraProps;
 
 const TWITTER_LINK = 'https://twitter.com/onboard_dao';
 const NEAR_LINK = 'https://near.org/';
+const TELEGRAM_LINK = 'https://t.me/+TYGncu1CaAc4YjAx';
+
 
 export const Footer = (props: FooterProps) => {
   return (
@@ -21,6 +23,12 @@ export const Footer = (props: FooterProps) => {
         px="6"
         py="6"
       >
+              <Flex
+        color="white"
+        flexWrap="wrap"
+        // justifyContent="space-between"
+        // marginX="auto"
+      >
         {/* Follow us Twitter */}
         <Link href={TWITTER_LINK} target="_blank">
           <HStack align="center" justify="center">
@@ -32,6 +40,17 @@ export const Footer = (props: FooterProps) => {
             />
           </HStack>
         </Link>
+        <Link href={TELEGRAM_LINK} target="_blank">
+          <HStack align="center" justify="center">
+            <TwitterLogoIcon
+              h={{ base: '20px', md: '24px' }}
+              mr="2.5"
+              mt="1px"
+              w={{ base: '20px', md: '24px' }}
+            />
+          </HStack>
+        </Link>
+        </Flex>
 
         {/* Powered by NEAR */}
         <Link href={NEAR_LINK} target="_blank">
