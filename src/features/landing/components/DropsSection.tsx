@@ -42,7 +42,7 @@ export const DropsSection = () => {
     },
     {
       name: 'ticket',
-      label: 'Ticket',
+      label: 'DAO',
       icon: <TicketIcon height={{ base: '6', md: '7' }} width={{ base: '6', md: '7' }} />,
       content: (
         <DropsTemplate
