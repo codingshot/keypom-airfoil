@@ -15,9 +15,8 @@ export const ExtraSection = () => {
         mb={{ base: '4', md: '10' }}
         textAlign="center"
       >
-        We connect you to
-        <br /> the <GradientSpan>Blockchain</GradientSpan> and to 
-        <br /> <GradientSpan>Organization</GradientSpan> 
+<GradientSpan>Connect</GradientSpan> to  
+        <br /> any <GradientSpan>Organization</GradientSpan> 
       </Heading>
       <SimpleGrid
         columns={{ base: 1, md: 2 }}
