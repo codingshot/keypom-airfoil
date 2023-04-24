@@ -49,7 +49,7 @@ const images = [
         onMouseEnter={() => setIsHovering(true)}
         onMouseLeave={() => setIsHovering(false)}
         onClick={() => window.open(url, "_blank")}
-        height=".5em"
+        height="150px"
 
       />
     );
