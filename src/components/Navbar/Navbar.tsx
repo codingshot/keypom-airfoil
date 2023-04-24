@@ -32,11 +32,11 @@ export const Navbar = (props: NavbarProps) => {
     //   href: 'https://docs.onboarddao.org',
     //   isExternal: true,
     // },
-    {
-      name: 'Get in touch',
-      href: 'https://twitter.com/onboard_dao',
-      isExternal: true,
-    },
+    // {
+    //   name: 'Get in touch',
+    //   href: 'https://twitter.com/onboard_dao',
+    //   isExternal: true,
+    // },
     {
       name: 'The DAO',
       href: 'https://app.astrodao.com/dao/onboarddao.sputnik-dao.near',

@@ -22,6 +22,10 @@ export const DropsSection = () => {
     else toast(UNAUTHORIZED_TOAST);
   };
 
+  function openNewTab(url) {
+    window.open(url, "_blank");
+  }
+
   const TAB_LIST: DropsTabItem[] = [
     {
       name: 'token',
@@ -46,11 +50,12 @@ export const DropsSection = () => {
       icon: <TicketIcon height={{ base: '6', md: '7' }} width={{ base: '6', md: '7' }} />,
       content: (
         <DropsTemplate
-          ctaDisabled={true}
           ctaOnClick={() => {
             // dropCta('ticket');
+            openNewTab("https://t.me/+hIbMakYygOtmMTdh");
+
           }}
-          ctaText="Coming soon"
+          ctaText="Get Into the DAO"
           description="Join OnboardDAO eeven if you dont have a wallet."
           headingText="Join Onboard DAO."
           imageNumber={1}

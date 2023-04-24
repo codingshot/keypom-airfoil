@@ -33,7 +33,7 @@ export const ExtraSection = () => {
         />
         <LandingCard
           buttonText="Request For Partnership"
-          description="Join our telegram and request any partnership to be fulfilleed by our BD guild."
+          description="Join our telegram and request any partnership to be fulfilled by our BD guild."
           header="🤝 as a Service"
           onClick={() => {
             window.location.href = 'https://onboarddao.org/telegram';

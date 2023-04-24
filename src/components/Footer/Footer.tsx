@@ -40,7 +40,7 @@ export const Footer = (props: FooterProps) => {
             />
           </HStack>
         </Link>
-        <Link href={TELEGRAM_LINK} target="_blank">
+        {/* <Link href={TELEGRAM_LINK} target="_blank">
           <HStack align="center" justify="center">
             <TwitterLogoIcon
               h={{ base: '20px', md: '24px' }}
@@ -49,7 +49,7 @@ export const Footer = (props: FooterProps) => {
               w={{ base: '20px', md: '24px' }}
             />
           </HStack>
-        </Link>
+        </Link> */}
         </Flex>
 
         {/* Powered by NEAR */}
