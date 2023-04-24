@@ -6,34 +6,35 @@ import { GradientSpan } from '@/components/GradientSpan';
 
 import { LandingCard } from './LandingCard';
 const images = [
-    {
-      id: 1,
-      src: "assets/PROOFOFVIBES.png",
-      alt: "Proof Of Vibes",
-      url: "https://proofofvibes.xyz/",
-    },
+
     {
       id: 2,
-      src: "assets/BanyanTree.png",
+      src: "assets/banyantreeborder.png",
       alt: "Image 2",
       url: "https://banyan.gg",
     },
     {
       id: 3,
-      src: "assets/harmonicLogo.webp",
+      src: "assets/HarmonicGuildSquare.png",
       alt: "Harmonic Guild",
       url: "https://www.harmonicguild.io/",
     },
     {
         id: 4,
-        src: "assets/keypom.webp",
+        src: "assets/keypomlogobordersquare.png",
         alt: "Keypom",
         url: "https://keypom.xyz",
+      },
+      {
+        id: 1,
+        src: "assets/PROOFOFVIBES.png",
+        alt: "Proof Of Vibes",
+        url: "https://proofofvibes.xyz/",
       },
 
       {
         id: 5,
-        src: "assets/mpalogo.jpeg",
+        src: "assets/mpaborder.png",
         alt: "Minority Programmers",
         url: "https://minorityprogrammers.org/",
       },
