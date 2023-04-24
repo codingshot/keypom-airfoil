@@ -28,23 +28,6 @@ export const DropsSection = () => {
 
   const TAB_LIST: DropsTabItem[] = [
     {
-      name: 'token',
-      label: 'Token',
-      icon: <StarIcon height={{ base: '6', md: '7' }} width={{ base: '6', md: '7' }} />,
-      content: (
-        <DropsTemplate
-          ctaOnClick={() => {
-            dropCta('token');
-          }}
-          ctaText="Create a Token Drop"
-          description="Great for giveaways, promotions, and marketing."
-          headingText="Instantly drop tokens in a link."
-          imageNumber={0}
-          subHeadingText="Token Drops"
-        />
-      ),
-    },
-    {
       name: 'ticket',
       label: 'DAO',
       icon: <TicketIcon height={{ base: '6', md: '7' }} width={{ base: '6', md: '7' }} />,
@@ -63,6 +46,24 @@ export const DropsSection = () => {
         />
       ),
     },
+    {
+      name: 'token',
+      label: 'Token',
+      icon: <StarIcon height={{ base: '6', md: '7' }} width={{ base: '6', md: '7' }} />,
+      content: (
+        <DropsTemplate
+          ctaOnClick={() => {
+            dropCta('token');
+          }}
+          ctaText="Create a Token Drop"
+          description="Great for giveaways, promotions, and marketing."
+          headingText="Instantly drop tokens in a link."
+          imageNumber={0}
+          subHeadingText="Token Drops"
+        />
+      ),
+    },
+
     {
       name: 'nft',
       label: 'NFT',
