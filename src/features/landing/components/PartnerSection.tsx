@@ -50,7 +50,7 @@ const images = [
         onMouseLeave={() => setIsHovering(false)}
         onClick={() => window.open(url, "_blank")}
         height=".5em"
-        width="200px"
+
       />
     );
   };
@@ -70,7 +70,7 @@ export const PartnerSection = () => {
         <br /> the <GradientSpan>Best in Web3</GradientSpan> 
       </Heading>
      
-            <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <div style={{ display: "flex", justifyContent: "space-between"}}>
       {images.map((image) => (
         <GrayscaleImage key={image.id} src={image.src} alt={image.alt} url={image.url}  />
       ))}
