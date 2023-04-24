@@ -69,12 +69,8 @@ export const PartnerSection = () => {
 <GradientSpan>Working</GradientSpan> with  
         <br /> the <GradientSpan>Best in Web3</GradientSpan> 
       </Heading>
-      <SimpleGrid
-        columns={{ base: 1, md: 2 }}
-        mb={{ base: '14', md: '120px' }}
-        spacing={{ base: '4', md: '6' }}
-      >
-            <div>
+     
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
       {images.map((image) => (
         <GrayscaleImage key={image.id} src={image.src} alt={image.alt} url={image.url}  />
       ))}
@@ -85,7 +81,6 @@ export const PartnerSection = () => {
 <div>
     <img height="1em" src="assets/PROOFOFVIBES.png"></img>
 </div> */}
-      </SimpleGrid>
     </Center>
   );
 };
